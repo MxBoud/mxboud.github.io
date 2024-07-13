@@ -79,7 +79,7 @@ img{border:none;max-width:100%; height:auto;}
 ul{
 	padding: 0;
     margin: 0 auto;
-    list-style: none;
+
 }
 ul li {
 	list-style: none;
@@ -213,14 +213,14 @@ nav.navbar.bootsnav .navbar-toggle i{color: #000000;}
 }
 
 /*.header-text-area*/
-.header-text h2 {
+.header-text h1 {
     color: #fff;
     font-size: 54px;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1.5;
 }
-.header-text h2 span {color: #000000;}
+.header-text h1 span {color: #000000;}
 .header-text p {
     color: #fff;
     font-size: 20px;
@@ -253,6 +253,11 @@ nav.navbar.bootsnav .navbar-toggle i{color: #000000;}
 --------------------------------------*/
 .about {padding: 50px 0 100px;}
 .about-content {padding-top: 100px;}
+
+.about-content li{
+    list-style-type: disc;
+    list-style: disc;
+}
 /*.single-about-txt*/
 .single-about-txt h3 {
     font-size:18px;
@@ -313,6 +318,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #000000;}
 .single-about-img img {
     max-width: 500px;
     height: auto;
+}
+.single-about-text ul {
+    list-style: disc;
 }
 .about-list-icon{
     display: flex;
